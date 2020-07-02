@@ -4,13 +4,15 @@ public class Contacts {
     private String name;
     private String emailAddress;
     private String phoneNumber;
-    private String address;
+    private String city;
+    private String state;
 
-    public Contacts (String name, String emailAddress, String phoneNumber, String address){
+    public Contacts (String name, String emailAddress, String phoneNumber, String city, String state){
         this.name = name;
         this.emailAddress = emailAddress;
         this.phoneNumber = phoneNumber;
-        this.address = address;
+        this.city = city;
+        this.state = state;
     }
 
     public void setName(String name){
@@ -32,11 +34,17 @@ public class Contacts {
     public String getPhoneNumber(){
         return this.phoneNumber;
     }
-    public void setAddress(String address){
-        this.address = address;
+    public void setCity(String city){
+        this.city = city;
     }
-    public String getAddress(){
-        return this.address;
+    public String getCity(){
+        return this.city;
+    }
+    public void setState(String state){
+        this.state = state;
+    }
+    public String getState(){
+        return this.state;
     }
 
     @Override
@@ -44,7 +52,7 @@ public class Contacts {
         return "Name: " + name + '\n' +
                 "Email Address: " + emailAddress + '\n' +
                 "Phone Number: " + phoneNumber + '\n' +
-                "Address: " + address + '\n';
+                "City :" + city + " State :" +  state +  '\n';
     }
 
 
