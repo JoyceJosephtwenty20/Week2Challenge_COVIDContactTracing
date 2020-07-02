@@ -27,9 +27,9 @@ public class  COVID19App {
         phoneNumber = input.nextLine();
         System.out.println("What is a patient's email? ");
         emailAddress = input.nextLine();
-        System.out.println("What city does and state a patient live in?");
+        System.out.println("What city does patient live in?");
         city = input.nextLine();
-        System.out.println("What city does and state a patient live in?");
+        System.out.println("What state does patient live in?");
         state = input.nextLine();
         Contacts contacts = new Contacts(name, phoneNumber, emailAddress,
                 city, state);
