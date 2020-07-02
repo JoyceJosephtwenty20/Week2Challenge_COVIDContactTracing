@@ -4,7 +4,6 @@ import java.util.stream.StreamSupport;
 
 public class  COVID19App {
 
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -19,6 +18,7 @@ public class  COVID19App {
         //Application Banner
         System.out.println("Contact Tracing Program\n" +
                 "Enter a newly infected person's information");
+
         // Patient details
 
         System.out.println("What is a patient's name?");
