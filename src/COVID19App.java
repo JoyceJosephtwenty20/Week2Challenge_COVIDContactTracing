@@ -207,40 +207,40 @@ public class  COVID19App {
 
         System.out.println("** \t Symptoms: " );
         if(ansFever.equalsIgnoreCase("y")){
-            System.out.println("\thad fever for " + ansFeverD + " days");
+            System.out.println("\thad fever for " + ansFeverD);
         }
-        if(ansCoughD.equalsIgnoreCase("y")){
-            System.out.println("\thad cough for " + ansCoughD + "  days");
+        if(ansCough.equalsIgnoreCase("y")){
+            System.out.println("\thad cough for " + ansCoughD );
         }
         if(ansBreath.equalsIgnoreCase("y")){
-            System.out.println("\thad difficulty breating for" + ansBreathD + " days");
+            System.out.println("\thad difficulty breating for" + ansBreathD);
         }
         if(ansTiredness.equalsIgnoreCase("y")){
-            System.out.println("\thad Tiredness for " + ansTirednessD + " days");
+            System.out.println("\thad Tiredness for " + ansTirednessD);
         }
         if(ansAches.equalsIgnoreCase("y")){
-            System.out.println("\thad Aches symptoms for" + ansAchesD + " days");
+            System.out.println("\thad Aches symptoms for" + ansAchesD);
         }
         if(ansChills.equalsIgnoreCase("y")){
-            System.out.println("\thad Chills for " + ansChillsD + " days");
+            System.out.println("\thad Chills for " + ansChillsD);
         }
         if(ansSorethroat.equalsIgnoreCase("y")){
-            System.out.println("\thad Sore Throat for " + ansSorethroatD + " days");
+            System.out.println("\thad Sore Throat for " + ansSorethroatD);
         }
         if(ansSmell.equalsIgnoreCase("y")){
-            System.out.println("\thad loss of smell for " + ansSmellD + " days");
+            System.out.println("\thad loss of smell for " + ansSmellD);
         }
         if(ansTaste.equalsIgnoreCase("y")){
-            System.out.println("\thad loss of taste for " + ansTasteD + " days");
+            System.out.println("\thad loss of taste for " + ansTasteD);
         }
         if(ansHeadache.equalsIgnoreCase("y")){
-            System.out.println("\thad symptoms of Headache for " + ansHeadacheD + " days");
+            System.out.println("\thad symptoms of Headache for " + ansHeadacheD);
         }
         if(ansDiarrhea.equalsIgnoreCase("y")){
-            System.out.println("\thad Diarrhea for" + ansDiarrheaD + " days");
+            System.out.println("\thad Diarrhea for" + ansDiarrheaD);
         }
         if(ansVomiting.equalsIgnoreCase("y")){
-            System.out.println("\thad vomiting for " + ansVomitingD + " days");
+            System.out.println("\thad vomiting for " + ansVomitingD);
         }
 
 
